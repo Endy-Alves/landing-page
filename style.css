@@ -131,6 +131,12 @@ header::after{
     .text-container {
       flex-direction: column;
     }
+    .contact-button{
+        margin-left: 35% !important;
+    }
+    .contact-button2{
+        margin-left: 35% !important;
+    }
   }
   .explain-txt{
     display: grid;
