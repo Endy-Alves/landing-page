@@ -11,7 +11,6 @@ header {
     background-size: cover;
     background-position: center;
     height: 30em;
-    width: 100vh;
   }
 header::after{
     content: "";
@@ -63,7 +62,7 @@ header::after{
     margin-left: 1em;
     font-family: Arial, Helvetica, sans-serif;
   }
-  @media (min-width: 300px) and (max-width: 900px) {
+  /*@media (min-width: 300px) and (max-width: 900px) {
     body{
         margin: 0;
         padding: 0;
@@ -80,7 +79,7 @@ header::after{
         padding-left: 23.5%;
         padding-right: 10% !important;
     }
-}
+} */
 .paragrafo {
     display: grid;
     place-items: start;
@@ -127,7 +126,7 @@ header::after{
     body{
     margin: 0;
     padding: 0;
-    width: 100vh;
+    width: 100%;
     }
     .text-container {
       flex-direction: column;
@@ -137,6 +136,17 @@ header::after{
     }
     .contact-button2{
         margin-left: 35% !important;
+    }
+    .centered-text {
+        font-size: 3em;
+        margin-top: 1.5em;
+    }
+    .texto-grande {
+        color: grey;
+        font-family: Arial, Helvetica, sans-serif;
+        align-self: center;
+        padding-left: 23.5%;
+        padding-right: 10% !important;
     }
   }
   .explain-txt{
